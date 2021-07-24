@@ -47,6 +47,14 @@ a {
     text-decoration: none;
 }
 
+/* Necesar pentru mobil */
+input[type="submit"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    opacity: 1;
+}
+
 /* Adaugam proprietati legate de font */
 body {
     font-family: 'Poppins', sans-serif;
